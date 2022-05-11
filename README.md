@@ -5,3 +5,5 @@ members
 장유림 urimJ
 정보미 JeongBbomi
 진태규 Cottons-Blue-leap
+
+Commit Test
