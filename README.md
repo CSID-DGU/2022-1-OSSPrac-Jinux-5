@@ -7,3 +7,5 @@ members
 진태규 Cottons-Blue-leap
 
 Commit Test
+
+Commit Test from Bomi
