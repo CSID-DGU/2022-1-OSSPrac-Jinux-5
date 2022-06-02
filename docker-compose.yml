@@ -1,9 +1,12 @@
 version: '3'
 services:
-  web:
-    image: ufrl128/osspjinux5:latest
-    container_name: "jinux"
-  mytest:
-    build: .
+  jinux:
+    image: ufrl128/osspjinux5:1.0
+    container_name: jinux
+    
+    build: 
+      context: .
+       
+    restart: always
     ports:
       - 80:80
