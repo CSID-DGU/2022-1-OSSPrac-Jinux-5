@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: ufrl128/osspjinux5:latest
+    container_name: "jinux"
+  mytest:
+    build: .
+    ports:
+      - 80:80
