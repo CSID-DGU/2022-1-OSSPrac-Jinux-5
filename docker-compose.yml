@@ -1,0 +1,13 @@
+version: '3'
+services:
+  jinux:
+    image: wlsxorb1/jinux-assignment4:latest
+    container_name: jinux
+    
+    build:
+       context: .
+       
+    restart: always
+    ports:
+      - 80:80
+

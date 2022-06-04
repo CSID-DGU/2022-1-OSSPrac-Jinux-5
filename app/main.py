@@ -10,6 +10,7 @@ def result():
    if request.method == 'POST':
       result = dict()
       result['Name'] = request.form.get('Name')
+      result['University'] = request.form.get('University')
       result['Student Number'] = request.form.get('Student Number')
       result['Gender'] = request.form.get('Gender')
       result['Major'] = request.form.get('Major')
