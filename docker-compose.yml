@@ -4,15 +4,12 @@ services:
 
     build: .
     image: ${DOCKER_USER_ID}/jinux-assignment4
-    
+
   production:
     image: ${DOCKER_USER_ID}/jinux-assignment4:${BUILD_NUMBER}
-    volumes:
-
-      - .:/code
-
-    command: python main.py
-
     ports:
       - 80:80
+
+~
+
 

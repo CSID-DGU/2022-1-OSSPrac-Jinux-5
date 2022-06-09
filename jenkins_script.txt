@@ -28,9 +28,9 @@ node {
 
       stage('Tag') {
 
-            sh(script: '''docker tag ${DOCKER_USER_ID}/flask \
+            sh(script: '''docker tag ${DOCKER_USER_ID}/jinux-assignment4 \
 
-            ${DOCKER_USER_ID}/flask:${BUILD_NUMBER}''') }
+            ${DOCKER_USER_ID}/jinux-assignment4:${BUILD_NUMBER}''') }
 
       stage('Push') {
 
